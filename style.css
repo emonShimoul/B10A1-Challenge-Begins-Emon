@@ -60,10 +60,11 @@
   border-radius: 8px;
   background: rgb(13, 19, 33);
   padding: 21px 24px 21px 24px;
-  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 .maincontent {
   display: flex;
@@ -300,14 +301,14 @@
 .support-form p {
   color: #ffffff;
 }
-.submit-form input {
+.submit-form input[type="text"] {
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 8px;
   background: rgb(255, 255, 255);
   padding: 19px 20px;
   width: 548px;
 }
-.submit-form button {
+.submit-form input[type="button"] {
   padding: 17px 20px;
   border-radius: 8px;
   color: rgb(13, 19, 33);
@@ -330,6 +331,10 @@
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
+}
+.social {
+  display: flex;
+  gap: 24px;
 }
 .social img {
   width: 36px;
