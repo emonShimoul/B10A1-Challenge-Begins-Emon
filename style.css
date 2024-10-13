@@ -162,7 +162,8 @@
 }
 .inspiration-heading h2,
 .current-target-heading h2,
-.next-target-heading h2 {
+.next-target-heading h2,
+.support-form h2 {
   font-size: 32px;
   font-weight: 800;
   color: rgb(13, 19, 33);
@@ -261,4 +262,67 @@
 .common-next-target img {
   width: 94.78px;
   height: 84.41px;
+}
+
+.support-form {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 0;
+  border-radius: 16px;
+  margin-bottom: 80px;
+  background: url("assets/handshake.jpg"), rgba(0, 0, 0, 0.5); /* Image first, then overlay */
+  background-size: cover; /* Make the image cover the entire area */
+  background-position: center; /* Center the image */
+  background-blend-mode: overlay;
+}
+.support-form-heading {
+  width: 606px;
+  margin: 0 auto;
+}
+.support-form p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.support-form h2,
+.support-form p {
+  color: #ffffff;
+}
+.submit-form input {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px;
+  width: 548px;
+}
+.submit-form button {
+  padding: 17px 20px;
+  border-radius: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-container {
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer h3 {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+.social img {
+  width: 36px;
 }
