@@ -50,6 +50,11 @@
   font-weight: 800;
   line-height: 68px;
 }
+.banner-content p {
+  color: rgb(13, 19, 33);
+  font-weight: 400;
+  line-height: 26px;
+}
 .banner-content button {
   margin-bottom: 45px;
   border-radius: 8px;
@@ -157,7 +162,8 @@
   margin-bottom: 110px;
 }
 .inspiration-heading,
-.current-target-heading {
+.current-target-heading,
+.next-target-heading {
   width: 852px;
 }
 .inspiration-heading h2,
@@ -221,14 +227,16 @@
   background: rgba(255, 223, 0, 0.05);
 }
 .next-target {
-  margin: 0 auto;
   /* width: 940px; */
+  margin: 0 auto;
   width: 1140px;
   display: flex;
   flex-direction: column;
   margin-bottom: 50px;
+  text-align: center;
 }
 .next-target-heading {
+  margin: 0 auto;
   text-align: center;
 }
 .next-target-list {
